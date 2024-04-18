@@ -1,1 +1,18 @@
-.cabecalho{background-color: aquamarine;}
+.cabecalho{
+    background-color: rgb(144, 9, 197);
+display: flex;
+padding: 30px;
+font-size: 24px;
+justify-content: space-around;
+}
+
+.cabecalho-imagem{
+width: 100px;
+height: 100px;
+}
+
+.cabecalho-item{
+display: inline-block;
+padding: 0 100px;
+text-decoration: underline;
+}
